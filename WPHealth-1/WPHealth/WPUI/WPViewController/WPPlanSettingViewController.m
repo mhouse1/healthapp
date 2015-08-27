@@ -148,9 +148,9 @@ ZHPickViewDelegate>
         //row for days of week
         //create button for each day of the week
         UIButton *day1 = [UIButton buttonWithType:UIButtonTypeCustom];
-        [day1 setTitle:@"weekday" forState:UIControlStateNormal];
+        //[day1 setTitle:@"weekday" forState:UIControlStateNormal];
 
-        [day1 setBackgroundImage:[UIImage imageNamed:@"Mon_Unselected.png"] forState:UIControlStateNormal];
+        [day1 setBackgroundImage:[UIImage imageNamed:@"Mon_selected.png"] forState:UIControlStateNormal];
         [day1 setFrame:CGRectMake(10, 5, 30,30)];
         //[selectTaskBtn setTag:indexPath.section];//not required buy may find useful if you need only section or row
         [cell addSubview:day1];
@@ -158,7 +158,7 @@ ZHPickViewDelegate>
         
         //tuesday
         UIButton *day2 = [UIButton buttonWithType:UIButtonTypeCustom];
-        [day2 setTitle:@"weekday" forState:UIControlStateNormal];
+        //[day2 setTitle:@"weekday" forState:UIControlStateNormal];
         
         [day2 setBackgroundImage:[UIImage imageNamed:@"Tue_Unselected.png"] forState:UIControlStateNormal];
         [day2 setFrame:CGRectMake(55, 5, 30,30)];
@@ -167,7 +167,7 @@ ZHPickViewDelegate>
 
         //wednesday
         UIButton *day3 = [UIButton buttonWithType:UIButtonTypeCustom];
-        [day3 setTitle:@"weekday" forState:UIControlStateNormal];
+        //[day3 setTitle:@"weekday" forState:UIControlStateNormal];
         
         [day3 setBackgroundImage:[UIImage imageNamed:@"Wed_Unselected.png"] forState:UIControlStateNormal];
         [day3 setFrame:CGRectMake(100, 5, 30,30)];
@@ -176,7 +176,7 @@ ZHPickViewDelegate>
 
         //thursday
         UIButton *day4 = [UIButton buttonWithType:UIButtonTypeCustom];
-        [day4 setTitle:@"weekday" forState:UIControlStateNormal];
+        //[day4 setTitle:@"weekday" forState:UIControlStateNormal];
         
         [day4 setBackgroundImage:[UIImage imageNamed:@"Thu_Unselected.png"] forState:UIControlStateNormal];
         [day4 setFrame:CGRectMake(145, 5, 30,30)];
@@ -185,7 +185,7 @@ ZHPickViewDelegate>
 
         //friday
         UIButton *day5 = [UIButton buttonWithType:UIButtonTypeCustom];
-        [day5 setTitle:@"weekday" forState:UIControlStateNormal];
+        //[day5 setTitle:@"weekday" forState:UIControlStateNormal];
         
         [day5 setBackgroundImage:[UIImage imageNamed:@"Fri_Unselected.png"] forState:UIControlStateNormal];
         [day5 setFrame:CGRectMake(190, 5, 30,30)];
@@ -194,7 +194,7 @@ ZHPickViewDelegate>
 
         //saturday
         UIButton *day6 = [UIButton buttonWithType:UIButtonTypeCustom];
-        [day6 setTitle:@"weekday" forState:UIControlStateNormal];
+        //[day6 setTitle:@"weekday" forState:UIControlStateNormal];
         
         [day6 setBackgroundImage:[UIImage imageNamed:@"Sat_Unselected.png"] forState:UIControlStateNormal];
         [day6 setFrame:CGRectMake(235, 5, 30,30)];
@@ -203,7 +203,7 @@ ZHPickViewDelegate>
 
         //sunday
         UIButton *day7 = [UIButton buttonWithType:UIButtonTypeCustom];
-        [day7 setTitle:@"weekday" forState:UIControlStateNormal];
+        //[day7 setTitle:@"weekday" forState:UIControlStateNormal];
         
         [day7 setBackgroundImage:[UIImage imageNamed:@"Sun_Unselected.png"] forState:UIControlStateNormal];
         [day7 setFrame:CGRectMake(280, 5, 30,30)];
