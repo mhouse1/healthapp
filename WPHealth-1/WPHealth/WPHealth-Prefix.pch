@@ -1,0 +1,51 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "AppDelegate.h"
+    #import "WPUtil.h"
+    #import "WPGlobalConfig.h"
+    #import "WPContentService.h"
+
+    //所有base
+    #import "WPBaseColours.h"
+    #import "WPBaseViewController.h"
+    #import "WPBaseTabBarController.h"
+    #import "WPBaseNavigationController.h"
+
+    //define this constant if you want to use Masonry without the 'mas_' prefix
+    #define MAS_SHORTHAND
+    //define this constant if you want to enable auto-boxing for default syntax
+    #define MAS_SHORTHAND_GLOBALS
+    #import "Masonry.h"
+
+#endif
+
+#define IS_IOS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] doubleValue]>=8.0) ? YES : NO
+
+#define IS_IOS_7_OR_LATER ([[[UIDevice currentDevice] systemVersion] doubleValue]>=7.0) ? YES : NO
+
+#define IS_RETINA_SCREEN ([[UIScreen mainScreen] bounds].size.height > 480.0)?YES:NO
+
+#define WPMAINSCREEN_SIZE   [UIScreen mainScreen].bounds.size
+
+#define WEAKSELF(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+
+
+
+
+
+

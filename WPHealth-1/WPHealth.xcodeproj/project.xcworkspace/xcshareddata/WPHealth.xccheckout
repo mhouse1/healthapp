@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C9D69C89-B0C1-45C1-B84D-951FE4AE3096</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WPHealth</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5C4E1B012368BFD6DE8A40EBBBBD372E5899887E</key>
+		<string>https://github.com/mhouse1/healthapp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WPHealth-1/WPHealth.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5C4E1B012368BFD6DE8A40EBBBBD372E5899887E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mhouse1/healthapp</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5C4E1B012368BFD6DE8A40EBBBBD372E5899887E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5C4E1B012368BFD6DE8A40EBBBBD372E5899887E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>healthapp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
